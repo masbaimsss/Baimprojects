@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:id="@+id/parentLayout">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_weight="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tea &amp; Garlic Tost"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:letterSpacing="0.02"
+                    android:textColor="@color/colortitletext"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewHrga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100 Rs"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorheadtext"
+                    />
+                <TextView
+                    android:id="@+id/textViewPorsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100 Rs"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorheadtext"
+                    />
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100 Rs"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorheadtext"
+                    />
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/crossdf"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    >
+
+
+
+    <ScrollView
+
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:id="@+id/cvb"
+        >
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:src="@drawable/blaur"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/supermarket"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#fff"
+
+                >
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/textViewMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELFCARE"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorTex"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    />
+
+
+
+
+                <!--*********wear- price**********-->
+
+                <LinearLayout
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                    <TextView
+
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Harga :"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTex"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/textViewHrga"
+                        android:layout_weight="5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$ 29"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+
+
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Porsi :"
+                            android:textSize="17dp"
+                            android:textColor="@color/colorTex"
+                            />
+
+                        <TextView
+
+                            android:id="@+id/textViewPorsi"
+                            android:layout_weight="5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="$ 29"
+                            android:textSize="17dp"
+                            android:textColor="#000"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+
+
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Status :"
+                            android:textSize="17dp"
+                            android:textColor="@color/colorTex"
+                            />
+
+                        <TextView
+
+                            android:id="@+id/textViewStatus"
+                            android:layout_weight="5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="$ 29"
+                            android:textSize="17dp"
+                            android:textColor="#000"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:background="@drawable/round1"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            />
+                        <ImageView
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:background="@drawable/round2"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            />
+
+                        <ImageView
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:background="@drawable/round3"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <View
+                    android:layout_marginTop="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colordevider"
+
+                    />
+
+
+
+                <!--*******discription***********-->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:padding="16dp"
+                        android:id="@+id/discription"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DSCRIPTION"
+                        android:textSize="13dp"
+                        android:textColor="@color/colorTex"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/linear1"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+                        >
+                        <ImageView
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/plus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/plus"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/linear2"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:layout_marginTop="24dp"
+                            android:id="@+id/minus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/minus"
+
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <TextView
+
+                    android:visibility="gone"
+                    android:layout_margin="16dp"
+                    android:id="@+id/discription1"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IZINC brings to you this hooded T shirt which will be a great inclusion in your wardrobe. Designed to sartorial perfection, this T shirt is made of premium quality fabric and will let you stay in sheer comfort all day long.this T shirt will be the perfect pick for any occasion."
+                    android:textSize="12.5dp"
+                    android:lineSpacingExtra="4.5dp"
+                    android:textColor="@color/colorTex"
+                    />
+
+
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colordevider"
+
+                    />
+
+
+
+                <!--**********use and care************-->
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--****buy****-->
+    <TextView
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4c71f5"
+        android:text="ADD TO CARD"
+        android:textSize="16dp"
+        android:textColor="#fff"
+
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:drawableRight="@drawable/addtocart"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+   

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurrrr"
+    >
+
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/mdlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurrrr"
+        android:footerDividersEnabled="true"
+        android:listSelector="@drawable/rect1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:divider="@drawable/babab"
+        android:dividerHeight="40dp">></ListView>
+
+</RelativeLayout>

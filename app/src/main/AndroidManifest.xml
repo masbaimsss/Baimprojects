@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baim.baimproject">
+
+    <compatible-screens>
+        <screen
+            android:screenDensity="560"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="400"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="400"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="400"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="400"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="280"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="280"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="280"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="280"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="360"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="360"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="360"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="360"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".pesenan.Input_dataku" />
+        <activity android:name=".gambar.Upload_gambar" />
+        <activity android:name=".gambar.ImageListView" />
+        <activity
+            android:name=".gambarbaru.BuatGambar"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CobaLagi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CobaLagi2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Databaruu2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lisviu.Lengkap"
+            android:parentActivityName=".pesenan.Input_dataku"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".lihatdatamakanan.Detail" />
+        <activity
+            android:name=".lisviu.NaviBaru"
+            android:label="@string/title_activity_navi_baru"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".MenuAwal.Menuawalan">
+
+        </activity>
+        <activity android:name=".lihatdatamakanan.Testerlihat" />
+        <activity android:name=".lihatdatamakanan.Detail2" />
+
+        <activity android:name=".MenuAwal.Menusatu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
